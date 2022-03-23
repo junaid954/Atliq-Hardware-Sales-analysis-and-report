@@ -62,10 +62,13 @@
 
 1. Count of currency 
 
-    `SELECT count(*) from sales.transactions WHERE currency = 'USD';
-     SELECT count(*) from sales.transactions WHERE currency = 'USD\r';
-     SELECT count(*) from sales.transactions WHERE currency = 'INR';
-     SELECT count(*) from sales.transactions WHERE currency = 'INR\r';`
+    `SELECT count(*) from sales.transactions WHERE currency = 'USD';`
+    
+     `SELECT count(*) from sales.transactions WHERE currency = 'USD\r';`
+     
+     `SELECT count(*) from sales.transactions WHERE currency = 'INR';`
+     
+     `SELECT count(*) from sales.transactions WHERE currency = 'INR\r';`
 
 
 
