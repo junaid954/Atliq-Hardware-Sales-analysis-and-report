@@ -28,6 +28,7 @@
     FROM sales.transactions 
     INNER JOIN sales.markets 
     ON sales.transactions.market_code = sales.markets.markets_code;`
+![Screenshot_5](https://user-images.githubusercontent.com/61817305/159733807-2647e485-8e00-48b2-9089-8893893fddbe.png)
 
 1. Show distrinct product codes that were sold in Delhi NCR
 
