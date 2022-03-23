@@ -49,6 +49,7 @@
 1. Show transactions where currency is US dollars
 
     `SELECT * from sales.transactions where currency="USD"`
+    
 ![image](https://user-images.githubusercontent.com/61817305/159734640-be7914e3-31b4-41ed-acbf-5312e37677ba.png)
 
 1. Alternate way to display transactions in USD currency along with the market  name 
@@ -96,6 +97,7 @@
 # Data Analysis Using Power BI
 
 Model Tab shows us the relation b/w different tables
+
 ![image](https://user-images.githubusercontent.com/61817305/159736285-9f5b389c-a9d3-44a2-9c21-8e451a4f9c9c.png)
 
 
@@ -121,6 +123,7 @@ Model Tab shows us the relation b/w different tables
 1. Formula to create norm_amount column
 
     `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
+    
 ![image](https://user-images.githubusercontent.com/61817305/159736624-a30d482d-8016-4168-85b9-6b42c6c455ee.png)
 ![image](https://user-images.githubusercontent.com/61817305/159736834-6e737435-bffe-41ae-8146-153d3c304af8.png)
 
@@ -128,6 +131,7 @@ Model Tab shows us the relation b/w different tables
 1. Formula to convert USD currency into INR
 
     `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] = "USD#(cr)" then [sales_amount]*75 else [sales_amount])`
+    
 ![image](https://user-images.githubusercontent.com/61817305/159736962-5119fe49-e1e0-48a3-8bbd-f4056ff5f518.png)
 
 
@@ -145,7 +149,8 @@ Model Tab shows us the relation b/w different tables
     `Sales_Quantity = SUM('sales transactions'[sales_qty])`
     
     
- ## Final Dashboard
+    
+ # Final Dashboard
  
 
  ![image](https://user-images.githubusercontent.com/61817305/159731423-7aa884df-a816-4399-a8ac-fa88443aa9a7.png)
