@@ -1,12 +1,12 @@
 # Atliq-Hardware-Sales-analysis-and-report
 
+### Task
 * Unlock Sales Insights that are not visible to the sales team. 
-* Automated dashboard providing quick and latest sales Insights in order to support data driven decision making. 
-* Sales team should be abel to take better decisions and save 10% cost on total spends. 
+* Create automated dashboard providing which will provide quick and latest sales Insights for better data driven decision making. 
+* Sales team should be able to take better decisions and save 10% cost on total spends. 
 * Sales analyst should should stop gathering data manually in order to save 20% of their business time and reinvest it into value added activities.
 
 
-1. SQL database dump is in db_dump.sql file above. Download `db_dump.sql` file to your local computer and import it as per instructions given in the tutorial video
 
 ### Data Analysis Using SQL
 
