@@ -28,11 +28,15 @@
     FROM sales.transactions 
     INNER JOIN sales.markets 
     ON sales.transactions.market_code = sales.markets.markets_code;`
+    
 ![Screenshot_5](https://user-images.githubusercontent.com/61817305/159733807-2647e485-8e00-48b2-9089-8893893fddbe.png)
 
 1. Show distrinct product codes that were sold in Delhi NCR
 
-    `SELECT distinct product_code FROM transactions where market_code='Mark004';`
+    `SELECT distinct product_code FROM sales.transactions where market_code='Mark004';`
+    
+    ![image](https://user-images.githubusercontent.com/61817305/159734328-b6630e6f-f33a-4eb4-adf5-1ba76424efec.png)
+
 
 1. Show transactions where currency is US dollars
 
