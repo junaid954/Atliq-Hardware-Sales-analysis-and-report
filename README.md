@@ -109,5 +109,7 @@
 
     `Sales_Quantity = SUM('sales transactions'[sales_qty])`
     
+    
+ 1. Final Dashboard 
     ![image](https://user-images.githubusercontent.com/61817305/159731423-7aa884df-a816-4399-a8ac-fa88443aa9a7.png)
 
