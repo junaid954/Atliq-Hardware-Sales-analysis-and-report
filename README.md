@@ -1,5 +1,7 @@
 # Atliq-Hardware-Sales-analysis-and-report
 
+ ![image](https://user-images.githubusercontent.com/61817305/159731423-7aa884df-a816-4399-a8ac-fa88443aa9a7.png)
+ 
 ### Task
 * Unlock Sales Insights that are not visible to the sales team. 
 * Create automated dashboard providing which will provide quick and latest sales Insights for better data driven decision making. 
